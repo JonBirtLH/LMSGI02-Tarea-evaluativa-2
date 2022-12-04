@@ -26,20 +26,24 @@
             <a class= "opcion-menu" href="news.html"> Noticias</a>    
             <a class= "opcion-menu" href="formular.html"> Contacto</a>    
         </nav> 
-        <section>                            
-            <fieldset class="formulario">
-                <legend> Formulario </legend>
-                <section class="input-column-class">                                             
-                        <label for="fname" class="inputlabel"> Nombre:</label>                              
-                        <input type="text" id="nombre" name="nombre" class="nameinput" > </input>                                        
-                        <label for="email" class="inputlabel"> Email:</label>                                        
-                        <input type="text" id="correo" name="correo" class="nameinput"> </input>                    
-                        <label for="subject" class="inputlabel"> Tema:</label>
-                        <input type="text" id="tema" name="tema" class="nameinput"> </input>
-                        <label for="message" class="inputlabel"> Mensaje:</label>
-                        <textarea name="Text1" cols="40" rows="16" class="messageinput"></textarea>
-                </section>
-            </fieldset>     
+        <section>
+            <form action="mailto:jelgezabal@birt.eus" method="get" class="formulario">
+                <fieldset class="campo-formulario">
+                    <legend> Formulario </legend>
+                        <section class="input-column-class">                                             
+                            <label for="fname" class="inputlabel"> Nombre:</label>                              
+                            <input type="text" id="nombre" name="nombre" class="nameinput" > </input>                                        
+                            <label for="email" class="inputlabel"> Email:</label>                                        
+                            <input type="text" id="correo" name="correo" class="nameinput"> </input>                    
+                            <label for="subject" class="inputlabel"> Tema:</label>
+                            <input type="text" id="tema" name="tema" class="nameinput"> </input>
+                            <label for="message" class="inputlabel"> Mensaje:</label>
+                            <textarea name="Text1" cols="40" rows="16" class="messageinput"></textarea>
+                                                    
+                    </section>                  
+                    <input class="boton-enviar" type="submit" value="Enviar"></input>  
+                </fieldset>    
+            </form>                             
             <aside class="contenedor-rrss">
                 <h1>Categorias</h1>
                 <section class="fotos-categorias">
